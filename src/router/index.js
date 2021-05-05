@@ -1,11 +1,11 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import CalendarPage from '../views/CalendarPage.vue'
+import CalendarView from '../views/CalendarView.vue'
 
 const routes = [
   {
     path: '/',
-    name: 'CalendarPage',
-    component: CalendarPage
+    name: 'CalendarView',
+    component: CalendarView
   },
 ]
 

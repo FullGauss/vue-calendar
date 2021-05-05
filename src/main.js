@@ -6,9 +6,10 @@ import ElementPlus from 'element-plus'
 import locale from 'element-plus/lib/locale/lang/ru'
 import 'dayjs/locale/ru'
 import 'element-plus/lib/theme-chalk/index.css'
+import VCalendar from 'v-calendar';
 
 const app = createApp(App)
 
 app.use(ElementPlus, {locale})
-app.use(store).use(router).mount('#app')
+app.use(store).use(router).use(VCalendar, {}).mount('#app')
 
